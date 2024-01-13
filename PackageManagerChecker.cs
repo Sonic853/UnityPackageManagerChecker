@@ -53,7 +53,7 @@ namespace Sonic853.PackageManagerChecker
                 return;
             }
             var packageList = PackageList.Instance;
-            if (packageList.installPackages.Count == 0)
+            if (packageList.installPackages.Length == 0)
             {
                 Debug.LogWarning(_("No package to install"));
                 return;

@@ -41,7 +41,7 @@ namespace Sonic853.PackageManagerChecker
             }
             CheckPackages(true);
         }
-        [MenuItem("853Lab/Package/CheckPackages", false, 100)]
+        [MenuItem("Window/853Lab/Package/CheckPackages", false, 100)]
         static void CheckPackages()
         {
             CheckPackages(false);
